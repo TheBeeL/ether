@@ -29,6 +29,9 @@ dependencies:
   '@trpc/server':
     specifier: ^10.45.1
     version: 10.45.1
+  '@upstash/redis':
+    specifier: ^1.28.4
+    version: 1.28.4
   drizzle-orm:
     specifier: ^0.29.4
     version: 0.29.4(@planetscale/database@1.16.0)(@types/react@18.2.61)(mysql2@3.9.2)(react@18.2.0)
@@ -1163,6 +1166,12 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
+  /@upstash/redis@1.28.4:
+    resolution: {integrity: sha512-UalkSAny/dz1m8giEhD3Y5ru1o+CPHI32wFyS3MyzDzj2TRvEN+lTw+mPwi20ojk0H2gs8TBW3qsrvwuLLy+pA==}
+    dependencies:
+      crypto-js: 4.2.0
+    dev: false
+
   /acorn-jsx@5.3.2(acorn@8.11.3):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -1514,6 +1523,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
     dev: true
+
+  /crypto-js@4.2.0:
+    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
+    dev: false
 
   /cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
